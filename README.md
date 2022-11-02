@@ -1,6 +1,6 @@
 ### Hi there 👋
 # My_Portfolio   
-<img alt="An image illustrating sunlight and moon images, depending on the theme" src="images/sun.png")>
+<img src="images/sun.png" alt="An image illustrating sunlight and moon images, depending on the theme">
 
 ⚡**A little about me **
 I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to learn, and also learning how to learn ! :-) 
