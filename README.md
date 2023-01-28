@@ -61,7 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENCE) licensed.
+This project is [MIT](LICENCE.md) licensed.
 
 <!--
 **Yordinia/yordinia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
