@@ -1,6 +1,8 @@
 ### Hi there 👋
-# My_Portfolio   
-<img src="images/sun.png" alt="An image illustrating sunlight and moon images, depending on the theme">
+# My_Portfolio  
+<div align='center'>
+<img src="https://github.com/Yordinia/A-To-Do-yo/blob/main/src/gif/simplicity.gif" alt="An image illustrating my latest project todo list">
+</div>
 
 ⚡**A little about me **
 I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to learn, and also learning how to learn ! :-) 
