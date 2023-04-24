@@ -1,8 +1,9 @@
 ### Hi there 👋
-# My_Portfolio  
+# ````````````````` 🧑‍🎓 Currently at  ````````````
 <div align='center'>
 <img src="https://github.com/Yordinia/A-To-Do-yo/blob/main/src/gif/simplicity.gif" alt="An image illustrating my latest project todo list">
 </div>
+# ``````````````````````````````````````````````````
 
 ⚡**A little about me **
 I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to learn, and also learning how to learn ! :-) 
@@ -13,9 +14,9 @@ I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to lea
 
 | No   | Languages | Framesworks |      Additional      |  Hobbies    |
 |------|----------:|-------------|----------------------|-------------|
-|     1|       HTML|   NONE   --:| Installed Linters    |Family Time  |
-|     2|        CSS|             |                      |   Youtube   |           
-|     3||          |             |                      |    :+1      |    
+|     1|       HTML|  React  --:| Installed Linters    |Family Time  |
+|     2|        CSS|    Redux    | Mastered Git         |   Youtube   |           
+|     3||      JS  |             |                      |    :+1      |    
 
 
 ## Getting Started
