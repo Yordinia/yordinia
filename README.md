@@ -1,9 +1,10 @@
 ### Hi there 👋
-# ````````````````` 🧑‍🎓 Currently at  ````````````
+# ````````````````` 🧑‍🎓 Currently at :
+ 
 <div align='center'>
-<img src="https://github.com/Yordinia/A-To-Do-yo/blob/main/src/gif/simplicity.gif" alt="An image illustrating my latest project todo list">
+🔽
+<br> <img src="https://github.com/Yordinia/A-To-Do-yo/blob/main/src/gif/simplicity.gif" alt="An image illustrating my latest project todo list">
 </div>
-# ``````````````````````````````````````````````````
 
 ⚡**A little about me **
 I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to learn, and also learning how to learn ! :-) 
