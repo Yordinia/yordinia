@@ -1,5 +1,5 @@
 ### Hi there 👋
-# ````````````````` 🧑‍🎓 Currently at :
+# 🧑‍🎓 Currently at :
  
 <div align='center'>
 🔽
