@@ -1,6 +1,11 @@
-### Hi there 👋
+### Hi 👋 I'm Yordanos <img src='https://camo.githubusercontent.com/42e1108070275a9f8feb49507d6d9cbbdc858007d3160524e7a43962471f2d23/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f323646787933497a31617269386f79744f2f67697068792e676966' width='50vw' height='50vh' display='inline-block'> </img>! 
+<i> 💻 Will be Working Remote  </br>
+ 🧮 Full-stack web developer</i> 
+ 
+ 
 # 🧑‍🎓 Currently at :
  
+ ![](https://giphy.com/gifs/mepreferyou-mpy-le2a-YsfPFdNPHv7PfdvWv7)
 <div align='center'>
 🔽
 <br> <img src="https://github.com/Yordinia/A-To-Do-yo/blob/main/src/gif/simplicity.gif" alt="An image illustrating my latest project todo list">
