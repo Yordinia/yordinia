@@ -7,7 +7,7 @@
 </div>
 
 ⚡**A little about me **
-I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to learn, and also learning how to learn ! :-) 
+I'm Yordanos Temesgen (Yordi). I have background in learning, knowing how to learn, and also learning how to learn !
 ## Current status
 🌱🔭 A fulltime Microverse Student
 
