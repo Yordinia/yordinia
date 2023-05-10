@@ -1,0 +1,26 @@
+# Types of testing
+
+- MANUAL testing > most primitive (but impo b4 automated testing)
+  - Manually validate inputs and outputs of a software
+  - When we should use it? Scenarios 
+  - Adhoc testing: Adhoc testing is entirely informal, and the only important factor is the knowledge and insight of the tester
+  - Usability: to assess how convenient, efficient, and user-friendly the product has turned out to be for the end-users. (Check this from the demo)
+  - Exploratory: Poor documentation - When we have to perform exploratory testing, we go for manual verification as we cannot use tools with little knowledge and documentation.
+  ## Types of manual testing
+- Unit testing (automated or not)
+  - validation of an individual software component (function, module). Requires detailed knowledge of the internal program design and code
+  - ints uit
+- Integration (automated or not)
+  - Conducted after unit test success for the integrated components
+  - Harder to find possible errors
+- System Testing (the system in its entirety)
+  - All the developed components are unit tested and then integrated into an application. 
+  - Once this finishes, we test the entire system rigorously to ensure the application meets all the quality standards.
+- Acceptance Testing
+  - User Acceptance Testing (UAT) –  performed by the Client to certify the system concerning the requirements that got agreed upon earlier. 
+  - We perform this testing in the final phase of testing before moving the software application to the Market or Production environment. 
+- Black Box Testing ( without knowing the internal codes and structure of the program)
+  - The testing happens from the customer's point of view, and the tester knows only about the inputs and the expected outputs of the application. 
+  - The tester is not aware of how everything works.
+- White Box Testing - strengthening the security and on improving the design and usability of the software
+  - The tester chooses inputs and executes the test by giving inputs to the system through the codes and determines the appropriate outputs.
