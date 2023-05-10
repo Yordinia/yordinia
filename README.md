@@ -7,7 +7,7 @@
 <a href="https://www.hackerrank.com/@aimshihabuddink1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@aimshihabuddink1" height="30" width="40" /></a> -->
 </p>
 
-🌱🔭 A fulltime Microverse Student
+🌱 A fulltime Microverse Student  </br>
 <i> 💻 Will be Working Remote  </br>
  🧮 Full-stack web developer </i> 
 
