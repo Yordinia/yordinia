@@ -45,7 +45,7 @@
     expect(text).toBe('Max (29 years old)')
     })
     ```    
-    - hERE, checkAndGenerate() uses two other functions (dependencies). Which is why integration testing is needed, incase we change one of them
+    - HERE, checkAndGenerate() uses two other functions (dependencies). Which is why integration testing is needed, incase we change one of them
 
 ## End-to-End (e2e)/ UI test: involves a headless browser.
   - Involves clicking, entering text, etc.
