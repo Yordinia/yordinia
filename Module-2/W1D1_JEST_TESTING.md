@@ -149,7 +149,8 @@ const shoppingList = [
 test('the shopping list has milk on it', () => {
   expect(shoppingList).toContain('milk');
   expect(new Set(shoppingList)).toContain('milk');
-});```
+});
+```
 
 ## Exceptions
 If you want to test whether a particular function throws an error when it's called, use toThrow.
