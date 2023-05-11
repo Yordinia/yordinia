@@ -1,4 +1,4 @@
-# Install , export and import
+# JEST Install , export and import
 ```npm install --save-dev jest
 function sum(a, b) {
   return a + b;
