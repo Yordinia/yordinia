@@ -71,6 +71,12 @@ expect(finalText).toBe('Anna (40 years old)')
 ## JavaScript testing frameworks
 - Assertion Function:
 
+## To automate your tests
+- Write tests programmatically using a testing framework that suits your application. e.g. , Mocha, RSpec (for PHP, JS and Ruby)
+- When your tests can be executed via script from your terminal, you can have them be automatically executed by a continuous integration server like **Bamboo** or use a cloud service like **Bitbucket Pipelines**. 
+  - These tools will monitor your repositories and execute your test suite whenever new changes are pushed to the main repository.
+
+## 
 
 ## MANUAL testing > most primitive (but impo b4 automated testing)
   - Manually validate inputs and outputs of a software
@@ -82,20 +88,25 @@ expect(finalText).toBe('Anna (40 years old)')
   - Automation testing saves time, but software must be reliable
   - Manual has high frequency but verifies every output for us
   - No adays, Automation testing can be done on any software, but manual testing is still necessary
-
-## Types of manual testing
+## Different types of testing
 - Unit testing (automated or not)
   - validation of an individual software component (function, module). Requires detailed knowledge of the internal program design and code
   - ints uit
 - Integration (automated or not)
   - Conducted after unit test success for the integrated components
   - Harder to find possible errors
+- Functional tests - focus on the business requirements of an application. (more specific but simmilar to integration testing)
 - System Testing (the system in its entirety)
   - All the developed components are unit tested and then integrated into an application. 
   - Once this finishes, we test the entire system rigorously to ensure the application meets all the quality standards.
 - Acceptance Testing
   - User Acceptance Testing (UAT) –  performed by the Client to certify the system concerning the requirements that got agreed upon earlier. 
   - We perform this testing in the final phase of testing before moving the software application to the Market or Production environment. 
+- Performance testing - how a system performs under a particular workload
+  - These tests help to measure the reliability, speed, scalability, and responsiveness of an application.
+- smoke testing - test basic functonality
+  - Can be useful right after a new build is made to decide whether or not you can run more expensive tests,
+  - Or right after deployment
 - Black Box Testing ( without knowing the internal codes and structure of the program)
   - The testing happens from the customer's point of view, and the tester knows only about the inputs and the expected outputs of the application. 
   - The tester is not aware of how everything works.
