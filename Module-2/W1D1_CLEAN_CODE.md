@@ -5,7 +5,7 @@
 WEEK 3
 # CLEAN CODE 
 ## Short-circuit Evaluation
-- tHIS
+- THIS
 ``` console.log( var1 || "VARIABLE NOT FOUND!" ) ```
 - instead of
 ```

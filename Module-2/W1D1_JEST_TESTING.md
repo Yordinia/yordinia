@@ -1,10 +1,12 @@
 # JEST Install , export and import
-```npm install --save-dev jest
+```
+npm install --save-dev jest
+
 function sum(a, b) {
   return a + b;
 }
-
 module.exports = sum; // jest doesn't know export sum without babel
+
 const sum = require('./sum');
 
 test('adds 1 + 2 to equal 3', () => {
