@@ -31,7 +31,8 @@ test('adds 1 + 2 to equal 3', () => {
 - To use bable
 ```npm install --save-dev babel-jest @babel/core @babel/preset-env```
   - babel package.json
-```"devDependencies": {
+```
+"devDependencies": {
   "@babel/preset-env": ^^7.12.7,
   "babel-jest": ^^26.6.3,
   "jest": ^^26.6.3
@@ -46,7 +47,8 @@ test('adds 1 + 2 to equal 3', () => {
 - expect(x).toBe(z) is fail 
 - The 2nd fails because toBe checks the expected and the matcher's stored bit number, which is different in case of Z has different place than x.
 
-```test('two plus two is four', () => {
+```
+test('two plus two is four', () => {
   expect(2 + 2).toBe(4);
 });
 ```
@@ -54,7 +56,8 @@ test('adds 1 + 2 to equal 3', () => {
 - Match it with a matcher, such as .toBe
 - toBe uses Object.is to test exact equality
 **toEqual**
-```test('object assignment', () => {
+```
+test('object assignment', () => {
   const data = {one: 1};
   data['two'] = 2;
   expect(data).toEqual({one: 1, two: 2});
@@ -62,7 +65,8 @@ test('adds 1 + 2 to equal 3', () => {
 ```
 - toEqual ignores object keys with undefined properties, undefined array items, array sparseness, or object type mismatch. To take these into account use toStrictEqual instead.
 **not.toBe**
-```test('adding positive numbers is not zero', () => {
+```
+test('adding positive numbers is not zero', () => {
   for (let a = 1; a < 10; a++) {
     for (let b = 1; b < 10; b++) {
       expect(a + b).not.toBe(0);
@@ -77,7 +81,8 @@ test('adds 1 + 2 to equal 3', () => {
 - toBeTruthy matches anything that an if statement treats as true
 - toBeFalsy matches anything that an if statement treats as false
 E.g
-```test('null', () => {
+```
+test('null', () => {
   const n = null;
   expect(n).toBeNull();
   expect(n).toBeDefined();
@@ -97,7 +102,8 @@ test('zero', () => {
 ```
 ## Numbers
 Most ways of comparing numbers have matcher equivalents.
-```test('two plus two', () => {
+```
+test('two plus two', () => {
   const value = 2 + 2;
   expect(value).toBeGreaterThan(3);
   expect(value).toBeGreaterThanOrEqual(3.5);
@@ -110,7 +116,8 @@ Most ways of comparing numbers have matcher equivalents.
 });
 ```
 - For floating point equality, use toBeCloseTo instead of toEqual, because you don't want a test to depend on a tiny rounding error.
-```test('adding floating point numbers', () => {
+```
+test('adding floating point numbers', () => {
   const value = 0.1 + 0.2;
   //expect(value).toBe(0.3);           This won't work because of rounding error
   expect(value).toBeCloseTo(0.3); // This works.
@@ -118,7 +125,8 @@ Most ways of comparing numbers have matcher equivalents.
 ```
 ## Strings
 You can check strings against regular expressions with toMatch:
-```test('there is no I in team', () => {
+```
+test('there is no I in team', () => {
   expect('team').not.toMatch(/I/);
 });
 
@@ -129,7 +137,8 @@ test('but there is a "stop" in Christoph', () => {
 ## Arrays and iterables
 You can check if an array or iterable contains a particular item using toContain:
 
-```const shoppingList = [
+```
+const shoppingList = [
   'diapers',
   'kleenex',
   'trash bags',
@@ -144,7 +153,8 @@ test('the shopping list has milk on it', () => {
 
 ## Exceptions
 If you want to test whether a particular function throws an error when it's called, use toThrow.
-```function compileAndroidCode() {
+```
+function compileAndroidCode() {
   throw new Error('you are using the wrong JDK!');
 }
 
