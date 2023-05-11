@@ -1,17 +1,13 @@
-### Hi, I'm Yordanos <img src='https://camo.githubusercontent.com/42e1108070275a9f8feb49507d6d9cbbdc858007d3160524e7a43962471f2d23/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f323646787933497a31617269386f79744f2f67697068792e676966' width='50vw' height='50vh' display='inline-block'> </img>! <p>
-<p style="padding-left:20rem">
-<a href="https://twitter.com/yordinaM" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="yordinia" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/yordanos-temesgen-941727233/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yordinia" height="30" width="40" /></a>
+### Hi, I'm Yordanos <img src='https://camo.githubusercontent.com/42e1108070275a9f8feb49507d6d9cbbdc858007d3160524e7a43962471f2d23/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f323646787933497a31617269386f79744f2f67697068792e676966' width='50vw' height='50vh' display='inline-block'>  ! </img> <span> <a href="https://twitter.com/yordinaM" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="yordinia" height="30" width="40" /></a> <a href="https://www.linkedin.com/in/yordanos-temesgen-941727233/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yordinia" height="30" width="40" /></a>  </span>  
 
 <!-- <a href="https://medium.com/yordinia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="yordinia" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/@aimshihabuddink1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@aimshihabuddink1" height="30" width="40" /></a> -->
-</p>
 
 🌱 A fulltime Microverse Student  </br>
 <i> 💻 Will be Working Remote  </br>
  🧮 Full-stack web developer </i> 
 
-## 🤝Github Stat
+## 🍁 Github Stat
 <picture>
 <source
   srcset="https://github-readme-stats.vercel.app/api?username=yordinia&count_private=true&show_icons=true&theme=dark"
@@ -67,9 +63,7 @@
 <!-- <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a>  -->
 </p>
 
-
-## 📌 Check out my other projects pinned below 
-
-
-# Thank You 👋 <div align='right'> Fare Well  <img src='https://github.com/Yordinia/yordinia/blob/main/Module-2/img/Rabbit.png' style='width:10vw'> </div>
+# Thank You 👋 <div align='center'>  <img src='https://github.com/Yordinia/yordinia/blob/main/Module-2/img/Rabbit.png' style='width:10vw'> </div>  <div align='right'>  Farewell! </div>
+ 
+# <span> <i> 💡 Reminder </i> <h2> 📌 You may Check out my pinned projects below </h2>  </span> 
  
