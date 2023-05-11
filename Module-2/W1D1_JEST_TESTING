@@ -42,8 +42,9 @@ test('adds 1 + 2 to equal 3', () => {
 - **toBe**
 - checks the same bit in memory 
 - e.g. let x = [1,2,3]; let y = x; let z = [...x];
-- Here, expect(x)toBe(y) is pass
-- expect(x).toBe(z) is fail
+- Here, expect(x).toBe(y) is pass
+- expect(x).toBe(z) is fail 
+- The 2nd fails because toBe checks the expected and the matcher's stored bit number, which is different in case of Z has different place than x.
 
 ```test('two plus two is four', () => {
   expect(2 + 2).toBe(4);
