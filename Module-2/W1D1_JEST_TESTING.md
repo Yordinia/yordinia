@@ -74,7 +74,7 @@ test('adding positive numbers is not zero', () => {
   }
 });
 ```
-##Truthiness
+## Truthiness
 - toBeNull matches only null
 - toBeUndefined matches only undefined
 - toBeDefined is the opposite of toBeUndefined
