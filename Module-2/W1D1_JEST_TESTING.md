@@ -33,8 +33,8 @@ test('adds 1 + 2 to equal 3', () => {
   - babel package.json
 ```"devDependencies": {
   "@babel/preset-env": ^^7.12.7,
-  "babel-ject": ^^26.6.3,
-  "ject": ^^26.6.3
+  "babel-jest": ^^26.6.3,
+  "jest": ^^26.6.3
 }
 ```
 
