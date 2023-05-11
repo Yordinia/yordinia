@@ -7,7 +7,7 @@
 <i> 💻 Will be Working Remote  </br>
  🧮 Full-stack web developer </i> 
 
-## 🤝Github Stat
+## 🍁 Github Stat
 <picture>
 <source
   srcset="https://github-readme-stats.vercel.app/api?username=yordinia&count_private=true&show_icons=true&theme=dark"
@@ -63,9 +63,7 @@
 <!-- <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a>  -->
 </p>
 
-
-## 📌 Check out my other projects pinned below 
-
-
-# Thank You 👋 <div align='right'> Fare Well  <img src='https://github.com/Yordinia/yordinia/blob/main/Module-2/img/Rabbit.png' style='width:10vw'> </div>
+# Thank You 👋 <div align='center'>  <img src='https://github.com/Yordinia/yordinia/blob/main/Module-2/img/Rabbit.png' style='width:10vw'> </div>  <div align='right'>  Farewell! </div>
+ 
+# <span> <i> 💡 Reminder </i> <h2> 📌 You may Check out my pinned projects below </h2>  </span> 
  
