@@ -27,8 +27,8 @@ test('adds 1 + 2 to equal 3', () => {
 ```jest my-test --notify --config=config.json```
 
 # Generate a basic configuration file
-```jest --init```
-- **Babel**
+- ```jest --init``` - set jest configuration (y/n questions)
+## **Babel**
 - Allows us write advanced JavaScript feature, and Babel will compile it down into ones our browser can understand.
 - First select babel, when asked during this command ```jest --init```
 - To use bable
