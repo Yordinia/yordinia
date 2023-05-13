@@ -5,7 +5,7 @@ npm install --save-dev jest
 function sum(a, b) {
   return a + b;
 }
-module.exports = sum; // jest doesn't know export sum without babel
+module.exports = sum; // jest doesn't know export default without babel
 
 const sum = require('./sum');
 
