@@ -22,6 +22,10 @@ test('adds 1 + 2 to equal 3', () => {
 ```
 - We can also use describe, to wrap up all simmilar tests in a function put as a second argument in describe. ```describt('str', f)```
 - And beforeEach, to define a function that excecutes before each tests, pus as a first argument in beforeEach. ```beforeEach(f)```
+- If after ```npx jest --init```, jest is saying ``` Error: Jest: 'ts-node' is required for the TypeScript configuration files. Make sure it is installed```, run the following command to install
+```
+install  npm install -D typescript npm install -D ts-node 
+```
 
 ### Running from command line
 - You can run Jest directly from the CLI if it's globally available in your PATH, e.g. npm install jest --global
