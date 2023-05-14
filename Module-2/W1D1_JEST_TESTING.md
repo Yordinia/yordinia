@@ -6,6 +6,8 @@ function sum(a, b) {
   return a + b;
 }
 module.exports = sum; // jest doesn't know export default without babel
+// to export multiple things the old way > exports.sum= sum; exports.subtract = subtract;
+// then require the file like > const {sum, subtract} = require('./filepath.js)
 
 const sum = require('./sum');
 
@@ -18,6 +20,8 @@ test('adds 1 + 2 to equal 3', () => {
   }
 }
 ```
+- We can also use describe, to wrap up all simmilar tests in a function put as a second argument in describe. ```describt('str', f)```
+- And beforeEach, to define a function that excecutes before each tests, pus as a first argument in beforeEach. ```beforeEach(f)```
 
 ### Running from command line
 - You can run Jest directly from the CLI if it's globally available in your PATH, e.g. npm install jest --global
