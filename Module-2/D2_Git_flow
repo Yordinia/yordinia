@@ -1,0 +1,10 @@
+# Gitflow
+
+- Dev _ pretty much upto date with master
+- Main work at Dev (latest version of your code, preferrably code that passed the tests)
+
+# To set up gitflow
+first pull we're upto date
+- git pull origin master
+- git checkout -b dev (develop or name of repository)
+- 

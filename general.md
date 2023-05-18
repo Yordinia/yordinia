@@ -5,3 +5,7 @@
 - 
 - 
 - 
+
+# git
+- to check what your remote branch name is ```git remote```
+- the fatch and push origin links ```git remote -v ```
