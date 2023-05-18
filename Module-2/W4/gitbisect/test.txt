@@ -1,7 +1,6 @@
 row
 row
 row
-car
 your
 car
 gently
