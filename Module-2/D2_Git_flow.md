@@ -8,7 +8,6 @@ first pull we're upto date
 - git pull origin master
 - git checkout -b dev (develop or name of repository)
 ## Git flow components
-
 - feature 
     - Without the git-flow extensions:
     ```git checkout develop && git checkout -b feature_branch```
