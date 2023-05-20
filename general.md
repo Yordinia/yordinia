@@ -81,6 +81,11 @@ create db.json file with data, give it sample json file
 - run Json server ```json-server --watch db.json```
 </details>
 
+### What is JSON
+- Has exact JavaScript Object syntax, except properties are always in quotes "file.json":{ "lat": -42, "lon":30}
+- 
+-
+
 ### POST, GET, PUT
 <details>
 <summary> POST </summary>
@@ -121,13 +126,16 @@ create db.json file with data, give it sample json file
 # Low Level (deep understanding of) Computer Programming
 <details>
 <summary>Computer Design and Architecture</summary>
+
 - Notes here
 - notes
 </details>
 
 <details>
 <summary> Object Oriented Programming Principle </summary>
-- 
+
+-  High level programming principles book [object-oriented thought process]
+- they **improve your technical vocabulary** !
 </details>
 
 <details>
@@ -135,7 +143,7 @@ create db.json file with data, give it sample json file
 - 
 </details>
 
-# Practice Speaking technical concepts or code
+# other
 <details>
 <summary> PATCH </summary>
 - 
