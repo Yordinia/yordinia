@@ -52,7 +52,7 @@ git branch -D hotfix_branch/0.1.0/feature_branch
 </details>
 
 - to check what your remote branch name is ```git remote```
-- the fetch and push origin links ```git remote -v ```
+- then fetch and push origin links ```git remote -v ```
 
 # CSS
 
@@ -86,11 +86,34 @@ create db.json file with data, give it sample json file
 - 
 -
 
+### API fetch syntax
+```
+fetch('https://reqres.in/api/users')
+.then(res=> {
+    if(res.ok){
+        console.log('successful')
+    } else{
+        console.log('not successful")
+    }
+}).then(data=> console.log(data))
+  .catch( error =>console.log('error'))//fetch error never happens unless there;s api link error..
+```
 ### POST, GET, PUT
 <details>
 <summary> POST </summary>
 
-- 
+- To post data to our server, we're going to NEED TO USE the OPTION section of the fetch method (as a second argument), and pass an object.
+```
+fetch('https://reqres.in/api/users', {
+    method: POST, //creates a new user in the api
+    body: JSON.stringify({
+        name: 'User 1'
+    }) // data for that user
+}).then(res=> {
+    return res.json()
+}).then(data=> console.log(data))
+  .catch( error =>console.log('error'))
+```
 </details>
 <details>
 <summary> GET </summary>
