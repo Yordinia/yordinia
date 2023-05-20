@@ -53,3 +53,136 @@ git branch -D hotfix_branch/0.1.0/feature_branch
 
 - to check what your remote branch name is ```git remote```
 - the fetch and push origin links ```git remote -v ```
+
+# CSS
+
+
+# JSON
+<details>
+<summary> Json server </summary>
+Install JSON server globally
+
+ - ```npm install -g json-server```
+
+create db.json file with data, give it sample json file
+
+```
+{
+    "Users": [
+        {
+            "id": 0,
+            "name": "Mar"
+        }
+    ]
+}
+```
+ - Link [here](https://github.com/typicode/json-server)
+
+- run Json server ```json-server --watch db.json```
+</details>
+
+### POST, GET, PUT
+<details>
+<summary> POST </summary>
+
+- 
+</details>
+<details>
+<summary> GET </summary>
+
+- 
+</details>
+<details>
+<summary> PUT </summary>
+
+- 
+
+</details>
+<details>
+<summary> DELETE </summary>
+
+- 
+</details>
+<details>
+<summary> PATCH </summary>
+
+- 
+</details>
+
+# Algorithm
+<details>
+<summary> Algorithm efficiency </summary>
+
+- Consider Time & Space
+- 
+[Source](https://github.com/microverseinc/curriculum-computer-science-fundamentals/blob/main/basic-data-structures/lessons/algorithms_efficiency.mdhttps://github.com/microverseinc/curriculum-computer-science-fundamentals/blob/main/basic-data-structures/lessons/algorithms_efficiency.md)
+</details>
+
+# Low Level (deep understanding of) Computer Programming
+<details>
+<summary>Computer Design and Architecture</summary>
+- Notes here
+- notes
+</details>
+
+<details>
+<summary> Object Oriented Programming Principle </summary>
+- 
+</details>
+
+<details>
+<summary>  System Design</summary>
+- 
+</details>
+
+# Practice Speaking technical concepts or code
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+
+# other
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+
+# other
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+
+# other
+<details>
+<summary> PATCH </summary>
+- 
+</details>
+
+<details>
+<summary> PATCH </summary>
+- 
+</details>
