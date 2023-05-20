@@ -114,6 +114,21 @@ fetch('https://reqres.in/api/users', {
 }).then(data=> console.log(data))
   .catch( error =>console.log('error'))
 ```
+or, in anothe rformat
+```
+// microverse LeaderBoard API
+const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+const response = await fetch(`${apiUrl}games/`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name: 'Game-ID' }),
+    });
+    const res = await response.json();
+    gameId = res.result;  
+```
+
 </details>
 <details>
 <summary> GET </summary>
@@ -195,14 +210,28 @@ fetch('https://reqres.in/api/users', {
 </details>
 
 
-# other
+# Rest
 <details>
-<summary> PATCH </summary>
-- 
+<summary> What is rest </summary>
+
+- REST (Representational State Transfer) is an architectural style and set of principles for designing networked applications.
+- Used in Web dev to build APIs, that allows d/t software systems to communicate & interact with each other over HTTP protocol.
+- RESTful APIs are designed around a few key principles:
+    - Resource-based: REST treats data as resources that can be identified and accessed through URLs (Uniform Resource Locators).
+
+    - Stateless: Each request from a client to a server should contain all the necessary information for the server to understand and process the request. The server should not store any client-specific information between requests.
+
+    - Uniform interface: RESTful APIs follow a standardized set of HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources. These methods are mapped to CRUD (Create, Read, Update, Delete) operations.
+
+    - Client-Server architecture: The client and server are separate entities that communicate over a network. The client is responsible for the user interface and user interactions, while the server manages resources and performs necessary actions.
+
+    - Cacheable: REST APIs can take advantage of caching to improve performance. Responses from the server can be stored by the client or intermediate servers to be reused for subsequent requests.
+    
 </details>
 
 <details>
 <summary> PATCH </summary>
+
 - 
 </details>
 
