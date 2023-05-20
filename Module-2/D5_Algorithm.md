@@ -6,6 +6,13 @@
 - Measure an algorithm’s efficiency, while input grows
 - How well does the function scale
 
+### Big-O space complexity
+- Measures how much space the algorithm requires as it grows.
+### Big-O time complexity
+- Measures how quickly the duration of the algorithm grows, relative to the input size.
+
+
+
 Linear Search Example 
 - start from 0 trought 10
 - Big O notation = O(N)
