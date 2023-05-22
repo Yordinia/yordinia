@@ -62,7 +62,8 @@ To see stash
 
 <details>
 <summary> To change github deployment in the command line (webpack) </summary>
-
+- after webpack is installed ```npm install webpack webpack-cli --save-dev
+```
 - npm install gh-pages
 - in package.json
 
