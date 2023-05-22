@@ -19,7 +19,47 @@ setting a default branch remote
 ```git push <remote-name> -f <new-branch-name>``` //--force
 - Undo a merge > get the commit id > git log OR git reflog, then 
 ```git revert -m 1 <merge-commit-hash>```
-----
+- To check out a commit before 3 weeks
+```git log --before="3 Weeks"```
+- to save all gitbisect log to a file
+```git bisect log > bisect```
+- git bisect ```git bisect bad HEAD``` if you know a current one is bad
+- To find the first good commit ```git bisect visualize``` after reseting and checkout ur preffered commit
+- 
+
+-----
+### Git Commands
+<details>
+<summary>Git Stash</summary>
+
+- stash ``` git stash ```
+- to stash untracked files (such us newly created files) ```git stash -u```
+- To stash with a custom message```git stash push -m "Initialize project using Create APP"```
+
+get / use files
+- To get the stashed files back ``` git stash apply 0``` 0 is [index]
+- pop the last one into our dir and remove it from stash stack``` git stash pop ```
+- To create a new branch from a stash ``` git stash branch new-branch 0```
+
+To see stash
+- To list all the stash changes ``` git stash list```
+- If we only have 1 stash ``` stash(0) on a branch: 3030399```
+- Show us the changes in a specific stash ``` git stash show 0```
+- With preview ``` git stash show -p 0 ```
+
+- Remove stash ``` git stash clear```
+- drop specific stash ``` git stash drop 0```
+
+- [Additional Commands](https://git-scm.com/docs/git-stash)
+
+</details>
+-----
+# Dev tools
+- Ctrl+Shift+I to open browser dev tools
+- ```getEventListeners($0)``` $0 special variable in the console that represents the currently selected element
+- 
+
+
 <details>
 <summary> To change github deployment in the command line (webpack) </summary>
 
@@ -54,7 +94,45 @@ git branch -D hotfix_branch/0.1.0/feature_branch
 - to check what your remote branch name is ```git remote```
 - then fetch and push origin links ```git remote -v ```
 
+# DOM
+<details>
+<summary> <h1> HTML elements (W3Schools)</h1> </summary>
+
+- insertAdjacentHTML - ```h2Element.insertAdjacentHTML("afterend", "<p>My new Par</p>")```;
+- The following are legal positions (parameters)
+
+|   Value	|   Description |
+| --------------|-------------------|
+| afterbegin	| After the beginning of the element (first child),  BEGIN> TOP| 
+| afterend	| Right after the element, ANOTHER BOTTOM ELEMENT | 
+| beforebegin	| Before the element TOP ELEMENT| 
+| beforeend	| Add a LAST CHILD, BOTTOM| 
+ <CONTAINER> <H1> </H1> ["afterend"]  <CONTAINER>
+</details>
+<details>
+<summary> GET </summary>
+
+- 
+</details>
+
 # CSS
+<details>
+<summary> GET </summary>
+
+- 
+</details>
+
+<details>
+<summary> GET </summary>
+
+- 
+</details>
+
+# VS code
+- Add cursor above/below > CTRL + alt + UP/DOWN
+- Add cursor to line ends > Shift + alt + i
+### Extensions
+    - 
 
 
 # JSON
