@@ -1,3 +1,10 @@
+# My contacts
+👤 **Yordanos Temesgen**
+- <a href="mailto:yoriyordina7@gmail.com">Email to: yoriyordina7@gmail.com</a>
+- GitHub: [@yordinia](https://github.com/yordinia)
+- Twitter: [@yordinaM](https://twitter.com/yordinaM)
+- LinkedIn: [@yordanos-temesgen-941727233](https://www.linkedin.com/in/yordanos-temesgen-941727233/)
+
 # bash
 - Adding line/characters to a file ```echo Are you kidding me >> test.txt```
 - renaming/ changing string ```sed -i -e 's/boat/car/g' test.txt```

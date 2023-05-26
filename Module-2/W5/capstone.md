@@ -1,7 +1,11 @@
 # APIs
 
-- Links
- - Inter
+- Links provided by microverse (with data)
+    - **[Meals API](https://www.themealdb.com/api/json/v1/1/filter.php?c=Chicken)**
+    - **[Pokeapi](https://pokeapi.co/): data about the Pokémon world.**
+    - **[TVmaze API](https://www.tvmaze.com/api): data about TV series and movies.**
+- storing likes
+    - **[Interactive API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9vUKLfgfPbeVlsgu5dzp)**
 
 ### Creating an id for the interactive api 
 - Using postman / other API tools and sending them a GET request with 
