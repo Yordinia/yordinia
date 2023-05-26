@@ -53,13 +53,25 @@ To see stash
 - [Additional Commands](https://git-scm.com/docs/git-stash)
 
 </details>
------
+<details>
+<summary>Git reset and -- </summary>
+
+- `git reset .` : This command is used to unstage changes in the current branch. It removes the changes from the staging area (index) without modifying the working directory. It essentially resets the staging area to match the last commit while leaving the modified files in the working directory untouched.
+
+- `git checkout -- .` : This command is used to discard local changes in all files within the current directory and its subdirectories. It effectively reverts the modified files back to the state they were in when you last committed or checked out the branch. The . represents the current directory, and the -- separates the command from the file paths.
+</details>
+
 # Dev tools
 - Ctrl+Shift+I to open browser dev tools
 - ```getEventListeners($0)``` $0 special variable in the console that represents the currently selected element
 - 
-
-
+<details>
+<summary> Webpacks </summary>
+- To make sure everything is install for webpack
+```
+npm install webpack webpack-cli webpack-dev-server html-webpack-plugin file-loader style-loader css-loader --save-dev
+```
+</details>
 <details>
 <summary> To change github deployment in the command line (webpack) </summary>
 - after webpack is installed ```npm install webpack webpack-cli --save-dev
@@ -193,8 +205,23 @@ fetch('https://reqres.in/api/users', {
 }).then(data=> console.log(data))
   .catch( error =>console.log('error'))
 ```
-or, in anothe rformat
+- or, in anothe ecample / format
 ```
+const apiUrl = "https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/";
+
+const response = await fetch(apiUrl, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({name: 'mealdb-id'}),
+})
+const {mealdb-id} = await response.json();
+
+if(response.ok) console.log('successful', mealdb-id)
+else  console.log('Error, failed', mealdb-id)
+
+
 // microverse LeaderBoard API
 const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 const response = await fetch(`${apiUrl}games/`, {
@@ -207,6 +234,15 @@ const response = await fetch(`${apiUrl}games/`, {
     const res = await response.json();
     gameId = res.result;  
 ```
+
+## Headers in responses
+- To check the content type of a response body
+`response.headers.get('Content-type')`
+- To check the length
+`response.headers.get('Content-length')`
+- to compare weather its `text/html` or `application/json`
+    - ` response.headers.get('Content-type') === 'text/html'`
+    - ` response.headers.get('Content-type') === 'application/json'`
 
 </details>
 <details>
