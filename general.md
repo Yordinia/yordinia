@@ -88,6 +88,8 @@ npm install webpack webpack-cli webpack-dev-server html-webpack-plugin file-load
 
 `"scripts":{
 "deploy": "gh-pages -d dist" }`
+
+> npm run deploy
 </details>
 
 <details>
@@ -177,6 +179,7 @@ create db.json file with data, give it sample json file
  - Link [here](https://github.com/typicode/json-server)
 
 - run Json server ```json-server --watch db.json```
+
 </details>
 
 ### What is JSON
@@ -184,7 +187,10 @@ create db.json file with data, give it sample json file
 - 
 -
 
-### API fetch syntax
+### API 
+- More API examples we used for capstone and more - here ([link to capstone.md](Module-2\W5\capstone.md#APIs))
+
+- fetch syntax
 ```
 fetch('https://reqres.in/api/users')
 .then(res=> {
