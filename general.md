@@ -380,16 +380,32 @@ const response = await fetch(`${apiUrl}games/`, {
 # CHAT GPT
 - CHAT GPT is a natural language processing tool, developed by open ai. 
 - Like a very knowledgable person that knows all the things of the internet.
-
+## Triks
+- Giving it a role, will be more detailed and has better response.
+    - Act as a an English teacher and Improver
+    - Let's take this step by step, after a response
+    - 
 ### GAME CHAGNER
 <summary> How to use chat GPT to learn how to code better and faster </summary>
-
-- Chat GPT Project Ideas
-    - 
 - Chat GPT became my tutor
     - design a custom design for you
+    - first attempt - give me study plan to learn android dev
+    - 2nd 1 - give me study plan to python for data science with resources
+- Provide who, what, when, where why - Study Plan Framework
+    - who -  what's the role of chat GPT in giving you a study plan
+    - what - to learn, when - time, where - online, why
+- GPT command for study plan
+>GPT: Act as a coding tutor that creates study plans to help people learn to code. You will be provided with the goal of the student, their time commitment, and resorce preferences. You will create a study plan with timelines and links to resources. OOnly include relevant resources because time is limited. My first request - " I want to become a data scientist but I do not know how to code. I can study 10 hours per week and only want video resources. I want to learn to code in p ython. create a study plan for me.
+
+- Chat GPT Project Ideas
+    - Say you've now learn, and you want to do a project.
+    - If you want to find a project to do about Naruto
+>GPT: Act as an expert data scientist and create an exploratory data analysis python data science project about Naruto the anime.
     - 
-- Prompt Engineering - how to design good chatgpt prompt
+
+- Prompt Engineering 
+    - is the art / science of designing prompts to be input into AI to get better responses and help solve problems.
+    - how to design good chatgpt prompt
     - 
 
 </details>
