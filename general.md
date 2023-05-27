@@ -374,3 +374,22 @@ const response = await fetch(`${apiUrl}games/`, {
 <summary> PATCH </summary>
 - 
 </details>
+
+<details>
+
+# CHAT GPT
+- CHAT GPT is a natural language processing tool, developed by open ai. 
+- Like a very knowledgable person that knows all the things of the internet.
+
+### GAME CHAGNER
+<summary> How to use chat GPT to learn how to code better and faster </summary>
+
+- Chat GPT Project Ideas
+    - 
+- Chat GPT became my tutor
+    - design a custom design for you
+    - 
+- Prompt Engineering - how to design good chatgpt prompt
+    - 
+
+</details>
