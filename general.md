@@ -370,10 +370,7 @@ const response = await fetch(`${apiUrl}games/`, {
 - 
 </details>
 
-<details>
-<summary> PATCH </summary>
-- 
-</details>
+
 
 <details>
 
@@ -384,7 +381,7 @@ const response = await fetch(`${apiUrl}games/`, {
 - Giving it a role, will be more detailed and has better response.
     - Act as a an English teacher and Improver
     - Let's take this step by step, after a response
-    - 
+    - Did you time out, when it stops gen.
 ### GAME CHAGNER
 <summary> How to use chat GPT to learn how to code better and faster </summary>
 - Chat GPT became my tutor
@@ -408,4 +405,12 @@ const response = await fetch(`${apiUrl}games/`, {
     - how to design good chatgpt prompt
     - 
 
+</details>
+
+# ME
+<details>
+<summary> Career Path </summary>
+Dream big, write down what your ideal life looks like
+    - Traveling and having a fulfiling job related to something influencial, helps people in some way or allows me to learn big things I want to do my self
+    - 
 </details>
