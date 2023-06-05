@@ -1,0 +1,3 @@
+# internships
+SMART plan 
+- 

@@ -414,3 +414,96 @@ Dream big, write down what your ideal life looks like
     - Traveling and having a fulfiling job related to something influencial, helps people in some way or allows me to learn big things I want to do my self
     - 
 </details>
+
+# Android Dev
+<details>
+<summary> Change PWA into Android </summary>
+Install and create an empty android studio proj
+
+### To convert your web app into an APK 
+- Cordova
+    - Install Cordova globally: `npm install -g cordova`
+    - Create a new Cordova project: `cordova create MyApp`
+    - Move your web app files into the newly created project's www folder.
+    - Add the platform you want to build for, e.g., Android: `cordova platform add android`
+    - Build the Cordova project: `cordova build android` >install JDK, Gradle and add them to path
+- React Native
+    - 
+</details>
+
+# React
+- create react app (check documentation) `npx create-react-app contact-app`
+- start dev    `npm start` / port 3000 by default
+- delete default /logo.png, txt in public, del test, css, report,
+- +src/components/Header.js,AddContact.js,ContactList.js,ContactCard.js +src/images +App.js,css
+### Odin project
+React general syntax
+
+```
+import React, {Component} from 'react';
+class MyApp extends Component{
+    constructor(){
+        super()
+    }
+    render(){
+        // my render return JSX, an HTML-like syntax that is "transpild" into JS
+        return (
+            <div className="App">
+            </div>
+        )
+    }
+}
+export default MyApp;
+```
+- render retrun JSX, class = className, onchange = onChange, for = htmlFor
+- 
+- 
+
+
+
+Source - [link to react with dipesh](My%20XP/React/LearnReactJSWithProject.md#ReactJSDipesh)
+
+
+# ReactJSDipesh
+
+
+
+# Linux
+<details>
+<summary> decoding </summary>
+
+- decoding 64 base
+- echo "Ik5ldmVyIHRydXN0IGEgY29tcHV0ZXIgeW91IGNhbid0IHRocm93IG91dCBhIHdpbmRvdyIgLSBTdGV2ZSBXb3puaWFr" | base64 -d
+
+</details>
+
+<details>
+<summary> GET </summary>
+
+- 
+</details>
+
+# holberton
+requirements
+- access a distant server using ssh
+- learn the very basics of the Linux command line
+- install a software on Linux
+- use the Emacs text editor
+- install a web server on Linux
+- read a configuration file
+- use HTML, CSS and javascript to build a website
+- and most importantly: search for information and help each other
+
+### log in to server
+- ssh <username>@<server-ip>
+```
+Your public IP: 15.188.86.160
+Your port: 22
+Your login: root
+Your password: 481454!Dc277CA835
+```
+- Run this in Putty, or git bash, or Windows Subsystem for Linux (WSL) 
+ `ssh root@15.188.86.160`
+- Welcome to Ubuntu 16.04.7 LTS (GNU/Linux 4.4.0-1128-aws x86_64)
+- `uname` - which operating system ur running - Linux
+- `man uname/ls` - to learn more options for a command
