@@ -1,0 +1,41 @@
+{
+  "name": "yordinia",
+  "version": "1.0.0",
+  "description": "👤 <i>Author Full Name</i> **Yordanos Temesgen Yizengaw**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development --config webpack.config.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yordinia/Webpack_Initiator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yordinia/Webpack_Initiator/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.8",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.78.0",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
