@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    index: 'My%20XP\YouTube\threeD_Portfolio\index.js', // Entry point for the application
+    index: './MyXP/YouTube/threeD_Portfolio/index.js', // Entry point for the application
   },
   // devtool: 'inline-source-map',
   devServer: {
@@ -16,7 +16,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'My%20XP\YouTube\threeD_Portfolio\index.html', // Use the index.html file as a template
+      template: './MyXP/YouTube/threeD_Portfolio/index.html', // Use the index.html file as a template
     }),
   ],
   output: {

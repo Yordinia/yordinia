@@ -471,7 +471,7 @@ Source - [link to react with dipesh](MyXP/React/LearnReactJSWithProject.md#React
 
 # Linux
 <details>
-<summary> decoding </summary>
+<summary> Decoding </summary>
 
 - decoding 64 base
 - echo "Ik5ldmVyIHRydXN0IGEgY29tcHV0ZXIgeW91IGNhbid0IHRocm93IG91dCBhIHdpbmRvdyIgLSBTdGV2ZSBXb3puaWFr" | base64 -d

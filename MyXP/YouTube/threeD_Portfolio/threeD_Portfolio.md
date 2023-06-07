@@ -1,3 +1,5 @@
+- npm init @vitejs/app
+- npm install three
 - import * 'three' as THREE 
 scene
 - holds oll objects and light new THREE.Scene()
