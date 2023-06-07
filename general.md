@@ -461,12 +461,12 @@ export default MyApp;
 
 
 
-Source - [link to react with dipesh](My%20XP/React/LearnReactJSWithProject.md#ReactJSDipesh)
+Source - [link to react with dipesh](MyXP/React/LearnReactJSWithProject.md#ReactJSDipesh)
 
 
 # ReactChatGPT
 
-[learning assistant](My%20XP/React/#%20Learning assistant 6th project)
+[learning assistant](MyXP\React\myLearningAssistant.md#%20Learning%20assistant%206th%20project)
 
 
 # Linux
