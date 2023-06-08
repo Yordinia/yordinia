@@ -478,6 +478,41 @@ Source - [link to react with dipesh](MyXP/React/LearnReactJSWithProject.md#React
 
 </details>
 
+## bernard hackwel
+- create a website in php // home
+php -S 127.0.0.1
+php -S 127.0.0.1:8085
+
+- create a website in pyton
+python -m http.server
+
+- using npm 
+npx http-server -p 8086
+
+- using apachi
+`systemctl start apache2` >mycredentials password
+if error bc port 80 is already used
+changing port apache
+`sudo nano /etc/apache2/ports.conf`
+~ Listen 8080 - `systemctl start apache2`
+
+### nano
+- nono index.html 
+create file
+- ctrl+x > y > enter - to save file in nano
+
+## curl
+test / browse website `curl localhost:7600`
+to save site into a file
+- curl -o coolwebsite localhost:8080
+get website info - headers, content-length, content-type, server
+curl -I localhost:8080
+to view headers
+- curl -v localhost: 8080
+    - header symbol request VS response headers > VS <
+to download the code of the first page we're receiving
+- `wget localhost:7600`
+
 <details>
 <summary> GET </summary>
 
