@@ -543,3 +543,28 @@ Your password: 481454!Dc277CA835
 - Welcome to Ubuntu 16.04.7 LTS (GNU/Linux 4.4.0-1128-aws x86_64)
 - `uname` - which operating system ur running - Linux
 - `man uname/ls` - to learn more options for a command
+
+
+- installing packeges / applications on linux
+- sudo apt update
+- sudo apt install pidgin
+
+go through list
+and check if a particular packege is there
+- apt list --installed | grep ^nmap
+^anything that starts with
+show
+- sudo apt show nmap
+search
+- sudo apt search nmap
+to save remove
+- sudo apt remove pidgin
+to purge
+- sudo apt purge pidgin
+&&
+- sudo apt purge pidgin-data
+to update
+sudo apt update &&sudo apt upgrade
+to save upgrade (remove unnecesary files during)
+sudo apt update &&sudo apt full-upgrade
+
