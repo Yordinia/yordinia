@@ -564,7 +564,47 @@ to purge
 &&
 - sudo apt purge pidgin-data
 to update
-sudo apt update &&sudo apt upgrade
+- sudo apt update && sudo apt upgrade
 to save upgrade (remove unnecesary files during)
-sudo apt update &&sudo apt full-upgrade
+- sudo apt update && sudo apt full-upgrade
+``````````````````^``````````````````
+- use git to hack and clone things
+git clone URL
+if its python project, install requirements using
+- pip3 install -r requirements.txt 
+- python filename.py -h
+-h for help. or
+- python filename.py -d hack
+- 
+
+## sql injection
+SELECT * FROM users WHERE username = 'admin' AND password='password123'
+- to trick login to be true in sql by OR '2'='2'
+`SELECT * FROM users WHERE username = 'admin OR '1'='1'' AND password='password123'`
+- to trick using sql comments -- 
+`SELECT * FROM users WHERE username = 'admin'-- 'AND password='password123'`
+- altoroMutual.com > hack into
+
+## google search operatiors
+- search from specific website
+- frechpress site:starbucks.com
+- search as admin
+- site:starbucks.com inurl:admin
+- find anything in body and return any page that has that
+- site:starbucks.com intext:admin
+- search login pages
+- site:starbucks.com intitle:login
+- types of files / with file type
+- site:starbucks.com filetype:pdf
+
+###### google hacking database
+- intitle:"WEBCAM 7" -iurl:/admin.html
+- filetype:env "DB_PASSWORD"
+- "authentication failure; loginame=" filetype.log
+- filetype:reg reg HKEY_CURRENT_USER username
+
+
+## 
+
+
 
