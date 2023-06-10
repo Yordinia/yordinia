@@ -501,25 +501,81 @@ changing port apache
 create file
 - ctrl+x > y > enter - to save file in nano
 
-## curl
+# CURL
 test / browse website `curl localhost:7600`
 to save site into a file
 - curl -o coolwebsite localhost:8080
 get website info - headers, content-length, content-type, server
 curl -I localhost:8080
-to view headers
+to view headers with verbose
 - curl -v localhost: 8080
     - header symbol request VS response headers > VS <
 to download the code of the first page we're receiving
 - `wget localhost:7600`
 
 <details>
-<summary> GET </summary>
+<summary> CURL  </summary>
 
 - 
 </details>
 
-# holberton
+## install things on linux
+- sudo apt update
+- sudo apt install nmap
+- to see if something is installed `apt list --installed | grep ^nmap`
+- to remove/with out removing user data   `sudo apt remove pigion`
+- to remove absolutely   `sudo apt purge pigion`
+- to update & upgrade `sudo apt update && sudo apt full-upgrade` || `sudo apt update && sudo apt upgrade`
+- to use other and check if packege is installed `dpkg  -l | grep nmap`
+- using aptitude   `sudo aptitude`
+- use install and use sanp `apt install snapd` - `sudo snap install [package-name]` 
+- `--classic code`vs code packega name
+- using pip (for python) after cloning files / packages
+`pip3 install -r requirements.txt`  
+- using gem (for ruby and rails, called rubygems)
+
+- ruby is a programmig lanlguage
+
+<details>
+<summary> commands to know more info on os  </summary>
+- to see what terminal/ shell we're using `ps` pwsh for powershell, bash for born again shell
+
+- `man uname/ ip / ls`
+- `apropos usb` > keyword search related to usb / get help
+- `apropos compress` > commands for file compression
+
+</details>
+
+### file system
+creating files
+- touch file.txt || cat > file.txt something something [enter]
+for creating bash scripts in a  file using eng of file EOF (multi line)
+- `cat <<EOF > file.txt`
+using echo
+- `echo 'hello' > stuff.txt`
+creating directories
+- `mkdir hello all these are directories`
+moving move files / directories into a directory
+- `mv file.txt ./hello`
+- `mv file.txt all these ./hello` multiple files and folders
+- `mv file.txt ./hello/renameandmovefile.txt` rename move
+see through
+- `ls hello`
+copy stuff
+- `cp file.txt ./folder`
+backup file
+- `cp file.txt file.txt.bak`
+creating directories with chains of children directories
+- `mdkir -p directory/anotherdir/child/p/for/parent`
+- to see tree gui like directories  `tree`
+- use r to copy folder contents alse 
+`cp -r folder ./direc`
+- to remove `rm / rmdir file file.txt ./folder`
+- to remove directory and all its conrents `rm -r folder`
+to extremely delete everything
+- `sudo rm -rf --no-preserve-root /`
+
+### holberton
 requirements
 - access a distant server using ssh
 - learn the very basics of the Linux command line
@@ -529,6 +585,50 @@ requirements
 - read a configuration file
 - use HTML, CSS and javascript to build a website
 - and most importantly: search for information and help each other
+
+## task manager in linux
+get task id / process-id
+- `ps -u htb-acl5612[ID] | grep firefox` || `pgrep filefox`
+get tast without pgrep or user id
+- `ps -aux | grep filefox`
+- to kill tasks `kill [process-id] `
+
+- ping hundred times `ping -c 100 networkchuck.com`
+^ foreground
+- sleep terminal for 30 second `sleep 30`
+- `jobs` to see sleeping tasks
+- ctrl Z - to sleep process
+- `bg 1` > to restart into background `fg 1` to put him into  foreground
+- to ping in background `PING hackthebox.eu &`
+- `ps ax` to see stopped
+### kill signals `kill -l`
+- sigkill -9 `kill -9 21374` 21374 found from ps
+- SIGTERM = 15 = Default kill (optional kill)
+- SIGINT = 2 = ctrl + C = interrupt
+- SIGSTOP = 19 = ctrl + Z = sleep
+- SIGCONT = 18 = ctrl + Z AGAIN ctrl + Z = restart
+- kill all processes / pings `pkill -9 ping`
+### start stop enable services (background processes) like ssh,ntp (network time protocol), webservers
+- first see all processes `ps -aux` 
+- more specific `ps -aux | grep sublime`
+- control daemons **with service manager, has initialization system, forks other processes** 
+   > systemd stop `sudo  systemctl stop sshd`, start `sudo  systemctl start sshd `
+   > can use `restart` , `reload` , `reload-or-restart`
+   > check if sys is dead `sudo  systemctl status sshd`
+- control daemons during boot
+    > dont start when system starts `sudo systemctl disable ntp`
+    > make sure it starts when system starts `sudo systemctl enable ntp`
+    >  `is-active`, `is-enabled`
+- see all daemons / services running
+    > `sudo systemctl list-units`
+    > `sudo systemctl list-units -t service`
+- to find daemons that are not running
+    > `sudo systemctl list-units --all | grep nginx` //lists those that are loaded into memory
+    > `sudo systemctl list-unit-files --all | grep nginx`
+- to start nginx for example > restart journal first
+- 
+
+
 
 ### log in to server
 - ssh <username>@<server-ip>
