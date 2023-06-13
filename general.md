@@ -407,6 +407,16 @@ const response = await fetch(`${apiUrl}games/`, {
 
 </details>
 
+# python
+
+- python pip install - `python -m ensurepip`
+- creating symbolic link
+     - mklink pip.exe pip3.11.exe   > not on windows
+on windows
+Open a text editor such as Notepad.
+Create a new file and paste the following content:
+     - 
+
 # ME
 <details>
 <summary> Career Path </summary>
