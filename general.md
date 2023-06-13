@@ -541,7 +541,9 @@ to download the code of the first page we're receiving
 - use install and use sanp `apt install snapd` - `sudo snap install [package-name]` 
 - `--classic code`vs code packega name
 - using pip (for python) after cloning files / packages
-`pip3 install -r requirements.txt`  
+(installing dependencis all at once)
+`pip3 install -r requirements.txt` 
+- installing telebot `pip install pyTelegramBotAPI` 
 - using gem (for ruby and rails, called rubygems)
 
 - ruby is a programmig lanlguage
@@ -638,7 +640,8 @@ get tast without pgrep or user id
 - to start nginx for example > restart journal first
 - 
 
-
+# python
+- value_if_true if condition else value_if_false `x = 'A' if x is not null else 'B'`
 
 ### log in to server
 - ssh <username>@<server-ip>
