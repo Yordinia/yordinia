@@ -1,6 +1,5 @@
 ### Hi ! <img src='https://camo.githubusercontent.com/42e1108070275a9f8feb49507d6d9cbbdc858007d3160524e7a43962471f2d23/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f323646787933497a31617269386f79744f2f67697068792e676966' width='50vw' height='50vh' display='inline-block'>  </img>
- <span> 👤 <i>Full Name:-</i> **Yordanos Temesgen Yizengaw** </span> 
- <span> </p> |  <a href="https://twitter.com/yordinaM" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="yordinia" height="30" width="40" /></a> 
+ <span> 👤 <i>Full Name:-</i> <h2>Yordanos Temesgen Yizengaw <h2> </p> |  <a href="https://twitter.com/yordinaM" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="yordinia" height="30" width="40" /></a> 
 
 [yordinaM](https://twitter.com/yordinaM) </h2> <h2> | <a href="https://www.linkedin.com/in/yordanos-temesgen-941727233/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yordinia" height="30" width="40" /></a> 
 
