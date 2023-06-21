@@ -382,6 +382,8 @@ const response = await fetch(`${apiUrl}games/`, {
     - Act as a an English teacher and Improver
     - Let's take this step by step, after a response
     - Did you time out, when it stops gen.
+## AI to learn technical
+- 
 ### GAME CHAGNER
 <summary> How to use chat GPT to learn how to code better and faster </summary>
 - Chat GPT became my tutor
@@ -416,7 +418,20 @@ on windows
 Open a text editor such as Notepad.
 Create a new file and paste the following content:
      - 
-
+## pythonanywhere run forever
+- to start virtual env / activate your virtual environment
+    -  `mkvirtualenv --python=/usr/bin/python3.1 myenv`
+    - `source /path/to/myenv/bin/activate`
+    - `workon myenv`
+- to generate requirements.txt file `pip freeze > requirements.txt` // need to be in enviroment(workon), and install all dependencies
+- to install requiremtns.txt file  `pip install -r requirements.txt`
+- install dependencies for telebot > `pip install pyTelegramBotAPI`
+- to run your py file 24/7 (nohup)> `nohup python main.py &`
+use  `ps kill` to stop it if u want
+- to connect github with pythonanywhere
+open 
+- generate ssh key `ssh-keygen`
+- 
 # ME
 <details>
 <summary> Career Path </summary>
@@ -430,9 +445,10 @@ Dream big, write down what your ideal life looks like
 <summary> Change PWA into Android </summary>
 Install and create an empty android studio proj
 
+
 ### To convert your web app into an APK 
 - Cordova
-    - Install Cordova globally: `npm install -g cordova`
+    - Install Cordova globally in C://: `npm install -g cordova`
     - Create a new Cordova project: `cordova create MyApp`
     - Move your web app files into the newly created project's www folder.
     - Add the platform you want to build for, e.g., Android: `cordova platform add android`
@@ -477,6 +493,23 @@ Source - [link to react with dipesh](MyXP/React/LearnReactJSWithProject.md#React
 # ReactChatGPT
 
 [learning assistant](MyXP\React\myLearningAssistant.md#%20Learning%20assistant%206th%20project)
+
+# React my portfolio
+- to install react using vite
+`npm create vite@latest ./ -- --template react`
+- to install tailwind
+`npm install -D tailwindcss`
+`npx tailwindcss init`
+- to install awesome awesome packages for react, 3D things 
+-  @react-three/fiber > impo > React based 3JS library
+- react-tile > a cool hovering animation
+- react-vertical-timeline-component > for versical experience like linkedin
+- react-router-dom > for routing
+- @emailjs/broswer > for emailing functionality 
+`npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/broswer framer-motion react-router-dom`
+
+
+# React Native Android
 
 
 # Linux
@@ -602,7 +635,7 @@ requirements
 get task id / process-id
 - `ps -u htb-acl5612[ID] | grep firefox` || `pgrep filefox`
 get tast without pgrep or user id
-- `ps -aux | grep filefox`
+- `ps -aux | grep firefox`
 - to kill tasks `kill [process-id] `
 
 - ping hundred times `ping -c 100 networkchuck.com`
