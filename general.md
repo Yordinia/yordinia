@@ -439,12 +439,22 @@ open
 <details>
 <summary> Flask </summary>
 
-- activate your virtual environment
-`python3 -m venv myvenv`
+- create your virtual environment
+windows:
+    `py -m pip install --user virtualenv`
+    `py -m venv env`
+mac:
+    `python3 -m pip install --user virtualenv`
+    `python3 -m venv env`
 - activate it
-windwos `myvenv\Scripts\activate`
+windows `myvenv\Scripts\activate`
 mac `source myvenv/bin/activate`
 
+-using a different package mirror (other than PyPI package repository)
+`py -m pip install --user virtualenv --index-url=https://pypi.org/simple/`
+
+- upgrading PIP
+`py -m pip install --user --upgrade pip`
 
 ``
 </details>
