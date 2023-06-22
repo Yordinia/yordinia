@@ -418,7 +418,9 @@ on windows
 Open a text editor such as Notepad.
 Create a new file and paste the following content:
      - 
+     
 ## pythonanywhere run forever
+
 - to start virtual env / activate your virtual environment
     -  `mkvirtualenv --python=/usr/bin/python3.1 myenv`
     - `source /path/to/myenv/bin/activate`
@@ -432,6 +434,21 @@ use  `ps kill` to stop it if u want
 open 
 - generate ssh key `ssh-keygen`
 - 
+
+# Web frameworks
+<details>
+<summary> Flask </summary>
+
+- activate your virtual environment
+`python3 -m venv myvenv`
+- activate it
+windwos `myvenv\Scripts\activate`
+mac `source myvenv/bin/activate`
+
+
+``
+</details>
+
 # ME
 <details>
 <summary> Career Path </summary>
