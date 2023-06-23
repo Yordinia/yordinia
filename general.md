@@ -309,12 +309,6 @@ const response = await fetch(`${apiUrl}games/`, {
 - 
 </details>
 
-# other
-<details>
-<summary> PATCH </summary>
-- 
-</details>
-
 <details>
 <summary> PATCH </summary>
 - 
@@ -781,3 +775,8 @@ SELECT * FROM users WHERE username = 'admin' AND password='password123'
 
 
 
+# Next.js
+<details>
+<summary> Web APP </summary>
+- 
+</details>
