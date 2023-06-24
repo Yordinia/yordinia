@@ -130,6 +130,11 @@ git branch -D hotfix_branch/0.1.0/feature_branch
 | beforebegin	| Before the element TOP ELEMENT| 
 | beforeend	| Add a LAST CHILD, BOTTOM| 
  <CONTAINER> <H1> </H1> ["afterend"]  <CONTAINER>
+
+- createTextNode - create eleent 
+const headerContent = document.createTextNode(
+        'Develop. Preview. Ship. 🚀',
+    );
 </details>
 <details>
 <summary> GET </summary>
@@ -155,7 +160,7 @@ git branch -D hotfix_branch/0.1.0/feature_branch
 - Add cursor to line ends > Shift + alt + i
 ### Extensions
     - 
-
+- to delete directory module folder `rm -rf node_modules`
 
 # JSON
 <details>
@@ -474,8 +479,19 @@ Install and create an empty android studio proj
     - Move your web app files into the newly created project's www folder.
     - Add the platform you want to build for, e.g., Android: `cordova platform add android`
     - Build the Cordova project: `cordova build android` >install JDK, Gradle and add them to path
-- React Native
-    - 
+
+
+
+## Expo go
+npm install --global eas-cli && \
+npx create-expo-app rockpaperscissors && \
+cd rockpaperscissors && \
+eas init --id 7778a533-68a9-4014-bd79-56b225b211bf
+
+link existing project to expo online
+npm install --global eas-cli && \
+eas init --id 7778a533-68a9-4014-bd79-56b225b211bf
+
 </details>
 
 # React
@@ -529,9 +545,79 @@ Source - [link to react with dipesh](MyXP/React/LearnReactJSWithProject.md#React
 - @emailjs/broswer > for emailing functionality 
 `npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/broswer framer-motion react-router-dom`
 
+### chatGPT website
+installing reduxjs
+`npm install @reduxjs/toolkit`
++ src/assets 
++ Vs code extention > es7 + react
++ src/app.css > copy gist
+> npm insall tailwind css with Vite command postcss autoprefixer indccc
++ tailwid.config.js > from docum
+   in there - fontFamily: {
+    satoshi: ["Satoshi", "sans-serif"],
+    inter: ["Inter", "sans-serif"],}
+index.html <import satoshi and inter google fonts>
+- import index.css | main.jsx
+> `npm run dev`
+change title OpenAI Article Summarizer
+favicon <link rel="icon" typ .. href="favicon.io">
+components
+> demo.jsx
+    rafec (react arror function export conmonent)||| enter
+> hero.jsx
+    rafec
+app.jsx
+import components
+import Demo from './components/Demo'
+import Hero from './components/Hero'
+import './App.css'
+inside our App.jsk, return (
+<main>
+<div className="main">
+    <div className="gradient" />
+</div>
 
-# React Native Android
+<div className="app">
+    <Hero /> - - using components in react
+    <Demo />
+</div>
 
+</div>
+</main>
+)
+
+hero.jsx
+import {logo} from '../assets';
+
+return (
+    <header className="w-full flex justify-center
+    items-center flex-col">
+     <nav className="flex justify-between items-center flex-col"> 
+        <img src={logo} alt="sumz_logo" className="w-28 object-contain"/>
+        <button
+         type="button"
+         onClick=
+        >
+     </nav>
+    </header>
+
+)
+
+# React Native
+- insatll expo-cli `npm install -g expo-cli`
+- start  `npx create-expo-app AwesomeProject` `npx expo start`
+- xCode for IOS
+run app on visual studio
+`emulator -avd avd_name`
+`npx react-native run-android`
+use actual phone,
+plug cable, turn on usb debugging, if issue with server
+`adb -s <device name> reverse tcp:8081 tcp:8081` find device name `adb devices`
+
+freecodecamp react native
+npm install eslint --save-dev
+npx eslint --init
+npm install @react-native-community/eslint-config --save-dev
 
 # Linux
 <details>
@@ -582,6 +668,11 @@ to download the code of the first page we're receiving
 
 - 
 </details>
+
+- updating npm
+`npm install -g npm@latest`
+-  clearing npm cache
+`npm cache clean --force`
 
 ## install things on linux
 - sudo apt update
@@ -776,7 +867,127 @@ SELECT * FROM users WHERE username = 'admin' AND password='password123'
 
 
 # Next.js
+`npx create-next-app@latest`
+typescript - yes,eslint - yes, tailwind - yes, src/ - no , approuter - yes
+ install packages
+ `npm install --save-exact --save-dev typescript`
+  for next project `npm install react react-dom next`
 <details>
-<summary> Web APP </summary>
-- 
+<summary> Todo list nextjs </summary>
+
+`npm i prisma --save-dev`
+`npx prisma init --datasource-provider sqlite`
+adding schema in prisma in schema.prisma
+model Todo {
+    id String @id @default(uuid())
+    title String
+    complete Boolean
+    createAt DateTime @default(now())
+    updatedAt DateTime @updateAt
+}
+migrate schema
+`npx prisma migrate dev --name init`
+create our database
+db.ts in src
+`import { PrismaClient } from "@prisma/client"`
+
+call server calls
+`const todoes = await prisma.todo.findMany()`
+`<uul>`
+
+</details>
+<details>
+<summary> JS Mastery </summary>
+react renders user interface on the client side,
+next js - client side or server side
+
+- client side VS server side (req response) : according to SEO 
+- client side (browser rendering) >  User requests > server sends files > browser renders it
+- server side (server rendering) > renderring the page on the server before transferring it to the user's device    
+> rendering is easier (next js)
+> serverless apis without managing servers (next js)
+> create api endpoints by files
+
+create next app `npx create-next-app@latest ./`
+achieve file based routing
++ posts/page.js + rafce
++ another folder posts/new/page.js
+
+dynamic routing
+. posts/blog-post-1
+. posts/blog-post-2
+. posts/blog-post-3
++ posts/[postId]/page.js
+
+loading.js
+const Loading = () => {
+    // add UI inside loading, including skeleton
+    return <LoadingSkeleton />
+}
+
+handling error next js
+error.js (must be client component) new/error.js
+```
+'use client';
+import {useEffect} from 'react';
+const Error = ({error, reset}) => {
+useEffect(() => {
+    console.error(error);
+}, {error});
+return (
+    <div>
+     <h2>Something went wrong!</h2>
+     <button
+       onClick={
+         () => reset()
+       }
+     >
+     Try again
+     </button>
+    </div>
+)
+} 
+export default Error;
+```
+## SSR - service side rendering
+eg
+```
+async function Page ({params}){
+    const res = await fetch(
+        'https://jsonplaceholder.typicode.com/posts/${params.id}',
+        {cache: 'no-store'}
+    ); 
+    >> next js omits the cache to make it static by default
+    >> don't store it, refetch it every single time
+    {next: {reevalidate: 10}} // data iscashed afer 10 secs
+}
+```
+create api using next js
++ api/users/route.js
+(Next.js HTTP methods)
+in route.js
+```
+> GET
+export async function GET(request){
+    return new Response('Hello, Next.js!')
+}
+> POST
+export async function POST(request){
+    return new Response('Hello, Next.js!')
+}
+> PUT
+> PATCH
+> DELETE
+> HEAD
+> OPTIONS
+GET IN example
+export async function GET (request){
+    const users = [
+        {id: 1, name: 'John'},
+        {id: 2, name: 'Jane'},
+        {id: 3, name: 'Bob'}
+    ];
+    return new Reasponse(JSON.stringify(users))
+}
+```
 </details>
