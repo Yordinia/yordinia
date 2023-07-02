@@ -3,7 +3,7 @@
 
 [yordinaM](https://twitter.com/yordinaM) </h2> <h2> | <a href="https://www.linkedin.com/in/yordinia/" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yordinia" height="30" width="40" /></a> 
 
-[yordanos-temesgen-941727233](https://www.linkedin.com/in/yordanos-temesgen-941727233/)</span>  </h2>
+[yordanos-temesgen-941727233](https://www.linkedin.com/in/yordinia/)</span>  </h2>
 
 
 <!-- <a href="https://medium.com/yordinia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="yordinia" height="30" width="40" /></a>
