@@ -1,11 +1,17 @@
-# Hey
+# Spring Boot NOtes
+
+##  embedded servers
 
 ## to change port in resources/application.yml
-server:
-  port: 3000
+        server:
+          port: 3000
+  ## to configure embedded webserver 
+
+    spring:
+      main: 
+         web-application-type: servlet
+
 ## to stop application
-spring:
-  main: 
      web-application-type: none
 
 ## my first API
@@ -113,14 +119,23 @@ pub class Customer{
     > generate setters and getters
     > generate equals, hashcode and tostring()
 }
+
+>> model - client will be able to request a fetch request to our api
+
+>> 
 ## DataBase Connection with out SQL code
 root file
 + docker-compose.yml
 check 
 >> run
+>> docket compose up
 commands
 >> docker compose ps
->> docker logspostgres
+>> docker logs postgres -f
+docker-compose will help us service postgres instance running on docker
+
+
+## Configure spring application to Connect to this DB
 
 >> 
 >>
