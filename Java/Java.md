@@ -115,14 +115,60 @@ pub class Customer{
 }
 ## DataBase Connection with out SQL code
 root file
-docker-compose.yml
++ docker-compose.yml
+check 
+>> run
+commands
+>> docker compose ps
+>> docker logspostgres
+
+>> 
+>>
+
+>> 
+>>
 
 ## 
-## 
-## 
+
+>> 
+>>
+
+>> 
+>>
 
 ## 
+
+>> 
+>>
+
+>> 
+>>
+
 ## 
+
+>> 
+>>
+
+>> 
+>>
+
+
+## 
+
+>> 
+>>
+
+>> 
+>>
+
+## 
+
+>> 
+>>
+
+>> 
+>>
+
 ## 
 ## 
 
