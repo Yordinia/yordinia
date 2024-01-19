@@ -864,6 +864,10 @@ SELECT * FROM users WHERE username = 'admin' AND password='password123'
 
 ## WSL
 to enable Windows Subsystem for Linux or Virtual Machine
+check
+hyper
+and Windows Subsystem for Linux"
+are checked in windows features on/off
 ```
 C:\Windows\System32\dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
@@ -872,6 +876,8 @@ C:\Windows\System32\dism.exe /online /enable-feature /featurename:VirtualMachine
 then restart computer are
 ```
 wsl --set-default-version 2
+wsl --list --online or wsl -l -o
+wsl --install -d <Distribution Name>.
 ```
 ## docker
 to start 
