@@ -128,12 +128,13 @@ root file
 + docker-compose.yml
 check 
 >> run
->> docket compose up
+>> docker-compose up
 commands
 >> docker compose ps
 >> docker logs postgres -f
 docker-compose will help us service postgres instance running on docker
-
+check if docker is running
+>> docker run -d -p 80:80 docker/getting-started
 
 ## Configure spring application to Connect to this DB
 
