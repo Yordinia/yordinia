@@ -864,9 +864,15 @@ SELECT * FROM users WHERE username = 'admin' AND password='password123'
 
 ## WSL
 to enable Windows Subsystem for Linux or Virtual Machine
+```
 C:\Windows\System32\dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
 C:\Windows\System32\dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+then restart computer are
+```
 wsl --set-default-version 2
+```
 ## docker
 to start 
 `
