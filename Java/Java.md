@@ -1,3 +1,14 @@
+# JOB
+A flow may be attributes
+> name
+> validity period
+> creation / lauchend date
+
+
+
+
+
+
 # Spring Boot NOtes
 
 ##  embedded servers

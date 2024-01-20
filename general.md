@@ -885,7 +885,47 @@ to start
 net stop com.docker.service
 net start com.docker.service
 `
+to restart docker
+docker system prune -a
+restart
 
+## windows 11
+inside windows setup..asking licence key..
+>> SHIFT + F10
+>> regedit
+go to.. ..
+>> Compute\HKEY_Local_MACHINE\SYSTEM\SETUP\LABCONFIG
+Changes on this computer
+go to 
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\Setup
+add new key 
+>> LabConfig
+New DWORD 32 bit 
+>> BypassTPMCheck
+New DWORD 32 bit 
+>> BypassSecureBootCheck
+
+
+
+to run widows 11 in sources, 
+>> setupprep.exe /product server
+FIX PC
+4. Check System Files:
+Open Command Prompt as an administrator.
+Run the following command:
+bash
+Copy code
+sfc /scannow
+Allow the process to complete and fix any detected issues.
+
+
+# Changed on this computer
+regedit 
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\Setup
+
+added  New Dword 32 key with title >
+>> AllowUpgradesWithUnsupportedTPMOrCPU 
+and value 1
 
 # Next.js
 `npx create-next-app@latest`
