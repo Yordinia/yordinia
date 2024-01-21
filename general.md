@@ -1069,3 +1069,76 @@ export async function GET (request){
 }
 ```
 </details>
+
+# SPringBOOt
+JPA
+```
+    @OneToMany(mappedBy = "flow", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<Step> steps = new ArrayList<>();
+```
+
+@OneToMany: This annotation is declaring the relationship between the Flow and Step entities. It is a "one-to-many" relationship, meaning that one Flow instance can be associated with multiple Step instances.
+mappedBy = "flow": The mappedBy attribute indicates that the Flow entity does not own the relationship. The Step entity owns the relationship, and it has a field named flow that references the Flow entity. The mappedBy attribute makes this relationship bidirectional.
+fetch = FetchType.LAZY: This is a fetch type. There are two types: LAZY and EAGER. In this case, FetchType.LAZY is used, which means that the list of Step instances will not be fetched from the database until they are explicitly accessed in the code. This improves performance by avoiding unnecessary database queries.
+cascade = CascadeType.ALL: The CascadeType.ALL setting means that all operations (Persist, Remove, Refresh, Merge, Detach) that happen on a Flow entity should also be reflected on the related Step entities.
+
+## MySQL
+Create database
+```CREATE DATABASE your_database_name;```
+CREATE user grant priviledges
+```
+CREATE USER 'your_username'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_username'@'localhost';
+FLUSH PRIVILEGES;
+```
+in application.yml
+```
+# src/main/resources/application.properties
+
+# Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
+# Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+```
+Replace your_database_name, your_username, and your_password with the values you set during MySQL configuration.
+
+If you prefer using YAML (application.yml), you can use the following:
+```
+# src/main/resources/application.yml
+
+# Database Configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/your_database_name
+    username: your_username
+    password: your_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+# Hibernate Configuration
+  hibernate:
+    ddl-auto: update
+    show-sql: true
+
+```
+Ensure that you have the MySQL connector as a dependency in your  in pom.xml
+```
+<!-- Add this to your pom.xml file -->
+<dependencies>
+    <!-- Other dependencies -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.23</version> <!-- Use the latest version available -->
+    </dependency>
+</dependencies>
+```
+
