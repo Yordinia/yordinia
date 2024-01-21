@@ -1,10 +1,68 @@
 # JOB
-A flow may be attributes
+A flow is a container of 1 or more entities called steps.
+it may have its own attributes, in addition to steps and interatcions
 > name
 > validity period
 > creation / lauchend date
+## A Step 
+is what interacts with the user  and does multiple things
+the following are Conversation Types
+>  EchoStep (Display simple message)
+        and automaticaly progress to the next step  
+> ChoiceStep (promp user choice)    
+        tkae the user to a differet step based on the user input
+> Take a user to another step (GotoStep)
+        **if we want to get back to a different step
+> End a conversation (EndStep)
+        Cleans sessions and finishes conversations
+
+## Use Cases
+
+### Vote Flow 
+>> Welcome(EchoStep) | Ask (explian) - Split (Choices) - End (each choice)
+Set up a flow with the following steps:
+● EchoStep
+● ChoiceStep
+● EndStep
+The choice step will have an optional brief text that describes the purpose of the vote along with
+selectable choices for the items to vote. Each choice will be mapped to EchoStep to thank the
+user for participation. And each EchoStep will be mapped to an EndStep that ends the
+conversation.
+
+### Q&A Flow
+>> Surveys, Polls, Vote
+EchoStep
+○ First prompt and final thank you messages
+● ChoiceStep
+○ As many steps as there are questions.
+● GotoStep
+○ If we want to give a chance to review previous answers
+● EndStep
+○ To end the Q&A
+
+React Flow
+creating and joining (deleting nodes)
+build flows (inside other flows)
+intergrate plugins and libraries
+React
+How to create and nest components
+
+How to add markup and styles
+How to display data
+How to render conditions and lists
+How to respond to events and update the screen
+How to share data between components
+
+## Microservices
+> Easy Scaling and testing
 
 
+### Assignment
+● Build a microservice that manages flows and steps using RESTful APIs.
+    ○ It’s enough to implement EchoStep, ChoiceStep, GotoStep and EndStep
+    ○ Use spring boot (https://spring.io/projects/spring-boot/)
+> Step 1
+designing and implementing controllers, services, and models
 
 
 
