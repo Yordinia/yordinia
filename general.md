@@ -10,6 +10,23 @@
 - renaming/ changing string ```sed -i -e 's/boat/car/g' test.txt```
 
 # git
+create a new repository on the command line
+```
+echo "# My repo name > VoteFlowApplication" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Yordinia/VoteFlowApplication.git
+git push -u origin main
+```
+```
+…or push an existing repository from the command line
+git remote add origin https://github.com/Yordinia/VoteFlowApplication.git
+git branch -M main
+git push -u origin main
+```
+
 setting a branch to a default using command on local
 - ```git remote set-head <remote-name> <branch-name>```
 setting a default branch remote
