@@ -1076,7 +1076,23 @@ JPA
     @OneToMany(mappedBy = "flow", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<Step> steps = new ArrayList<>();
 ```
+## Defining annotations
+```
+import java.lang.annotation.*;
 
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface MyCustomAnnotation {
+    // Elements of the annotation, if any
+}
+
+...
+@MyCustomAnnotation
+public class MyClass {
+    // Code here
+}
+
+```
 @OneToMany: This annotation is declaring the relationship between the Flow and Step entities. It is a "one-to-many" relationship, meaning that one Flow instance can be associated with multiple Step instances.
 mappedBy = "flow": The mappedBy attribute indicates that the Flow entity does not own the relationship. The Step entity owns the relationship, and it has a field named flow that references the Flow entity. The mappedBy attribute makes this relationship bidirectional.
 fetch = FetchType.LAZY: This is a fetch type. There are two types: LAZY and EAGER. In this case, FetchType.LAZY is used, which means that the list of Step instances will not be fetched from the database until they are explicitly accessed in the code. This improves performance by avoiding unnecessary database queries.
