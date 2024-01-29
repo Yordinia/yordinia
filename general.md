@@ -57,9 +57,7 @@ setting a branch to a default using command on local
   `git bisect log > bisect`
 - git bisect `git bisect bad HEAD` if you know a current one is bad
 - To find the first good commit `git bisect visualize` after reseting and checkout ur preffered commit
--
-
----
+- ***
 
 ### Git Commands
 
@@ -648,6 +646,7 @@ hero.jsx
 import {logo} from '../assets';
 
 return (
+
 <header className="w-full flex justify-center
     items-center flex-col">
 <nav className="flex justify-between items-center flex-col">
@@ -888,8 +887,7 @@ get task id / process-id
   > check if sys is dead `sudo  systemctl status sshd`
 - control daemons during boot
   > dont start when system starts `sudo systemctl disable ntp`
-  > make sure it starts when system starts `sudo systemctl enable ntp`
-  > `is-active`, `is-enabled`
+  > make sure it starts when system starts `sudo systemctl enable ntp` > `is-active`, `is-enabled`
 - see all daemons / services running
   > `sudo systemctl list-units` > `sudo systemctl list-units -t service`
 - to find daemons that are not running
@@ -951,6 +949,13 @@ and check if a particular packege is there
   -h for help. or
 - python filename.py -d hack
 -
+# Entity and relationships 
+- 
+### trouble with sql connection
+- Specify Hibernate Dialect: Hibernate requires a dialect to translate Hibernate's HQL queries into the appropriate SQL dialect for the underlying database.
+`spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect`
+
+
 
 ## sql injection
 
@@ -1235,7 +1240,9 @@ GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_username'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-in application.yml
+- my database password
+- root - Mysql1212
+  in application.yml
 
 ```
 # src/main/resources/application.properties
@@ -1306,6 +1313,12 @@ Ensure that you have the MySQL connector as a dependency in your in pom.xml
 and drop steps of different types to build a specific flow - Vote and Q&A flows.
 
     ○ Use react flow (https://reactflow.dev/)
+
+## Front End React Flow
+
+- create-react-app flow-buuilder-ui
+- npm install react-flow react-flow-renderer
+-
 
 # LESSONS
 
