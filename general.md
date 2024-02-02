@@ -193,10 +193,18 @@ const headerContent = document.createTextNode(
 - Add cursor to line ends > Shift + alt + i
 
 ### Extensions
-
     -
 
 - to delete directory module folder `rm -rf node_modules`
+
+# NODE / NPM
+- update node | update npm globally
+```
+npm install -g update-node
+npm update npm -g
+npm uninstall -g create-react-app
+npm init react-app my-app
+```
 
 # JSON
 
@@ -597,6 +605,9 @@ Source - [link to react with dipesh](MyXP/React/LearnReactJSWithProject.md#React
 - react-router-dom > for routing
 - @emailjs/broswer > for emailing functionality
   `npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/broswer framer-motion react-router-dom`
+
+## React-flow
+
 
 ### chatGPT website
 
