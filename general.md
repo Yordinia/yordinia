@@ -955,7 +955,13 @@ and check if a particular packege is there
 - Specify Hibernate Dialect: Hibernate requires a dialect to translate Hibernate's HQL queries into the appropriate SQL dialect for the underlying database.
 `spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect`
 
+- To help Jackson manage object identity, prevent infinite loops, produce compact JSON output, in One-to-Many relationships
+`@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")`
 
+- to show port in mysql
+SHOW VARIABLES LIKE 'port';
+or in cmd
+- netstat -tln | grep mysql
 
 ## sql injection
 
