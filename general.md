@@ -560,6 +560,19 @@ eas init --id 7778a533-68a9-4014-bd79-56b225b211bf
 - delete default /logo.png, txt in public, del test, css, report,
 - +src/components/Header.js,AddContact.js,ContactList.js,ContactCard.js +src/images +App.js,css
 
+## react with node | react flow
+- npm install react-flow-renderer
+- create node.components.jsx
+const MindNode = () => {
+  return(
+    <Fragment>
+
+    </Fragment>
+  )
+}
+### A Complete react course
+
+
 ### Odin project
 
 React general syntax
@@ -1335,6 +1348,9 @@ and drop steps of different types to build a specific flow - Vote and Q&A flows.
 
 - create-react-app flow-buuilder-ui
 - npm install react-flow react-flow-renderer
+-
+# Thymeleaf + spring + reactJS
+- 
 -
 
 # LESSONS
